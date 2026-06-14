@@ -17,5 +17,5 @@ Como rodar: O projeto tem dois modos de uso independentes. Escolha o que preferi
           O navegador abrirá automaticamente em http://localhost:8501.
 
      Modo 2 — Terminal Interativo:
-          Rode o main.py e sera exibido um meno com as opções disponíveis.
+          Rode o main.py e sera exibido um menu com as opções disponíveis.
 
