@@ -41,12 +41,8 @@ Escolha uma opção:
 
 
 def criar_rede_padrao():
-    return nx.barabasi_albert_graph(
-        n=TAMANHO_REDE,
-        m=2,
-        seed=42
-    )
-
+    from rede import criar_rede
+    return criar_rede(n=TAMANHO_REDE, m=2, seed=42)
 
 def opcao_1():
     print("\nRodando simulação básica...")
